@@ -21,6 +21,8 @@ micronaut {
 }
 
 dependencies {
+//    implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
+
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut.groovy:micronaut-runtime-groovy")
     implementation("javax.annotation:javax.annotation-api")
